@@ -29,7 +29,7 @@ def get_data():
     # print(len(dict_categ))
 
     # сбор карточек в каталогах
-    dict_cards = [["Название", "Артикул", "Цена"]]
+    dict_cards = [["Название", "Код товара", "Цена"]]
     sum_count = []
     k = 0
     for url1 in dict_categ:
